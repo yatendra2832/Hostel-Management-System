@@ -1,0 +1,59 @@
+/* Info Banner Styles */
+.info-banner {
+  background: linear-gradient(
+    145deg,
+    #d3f1fc,
+    #a1d7f8
+  ); /* Soft gradient background */
+  padding: 2rem 3rem;
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.1);
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-banner:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 123, 255, 0.2);
+}
+
+/* Heading Styling */
+.alert-heading {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+/* List Items and Text */
+.announcement-content ul li {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.announcement-content ul li strong {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.announcement-content ul li em {
+  font-style: italic;
+  color: #6c757d;
+}
+
+hr {
+  border-top: 2px solid #007bff;
+  width: 60px;
+  margin: 1.5rem auto;
+}
+
+/* Hover Effects */
+.info-banner:hover .alert-heading {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.info-banner:hover ul li {
+  color: #0056b3; /* Slightly darker text on hover */
+  transition: color 0.3s ease;
+}

@@ -1,0 +1,53 @@
+/* Section Title Styles */
+h2 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/* Trust Factor Cards */
+.trust-card {
+  background-color: #f8f9fa; /* Light background for cards */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trust-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.trust-icon {
+  font-size: 3rem;
+  color: #007bff; /* Blue icon color */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d; /* Grey text */
+}
+
+/* Tilt Effects */
+.card-body {
+  padding: 2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .trust-card {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}

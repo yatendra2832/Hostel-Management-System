@@ -1,0 +1,96 @@
+.about-section {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.image-container {
+  border-radius: 15px;
+  overflow: hidden;
+  max-height: 550px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-image {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-image:hover {
+  transform: scale(1.03);
+}
+
+.about-heading {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.about-subheading {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.about-lead {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.our-story-section {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+  margin-top: 40px;
+}
+
+.section-heading {
+  font-size: 2.2rem;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.section-subheading {
+  font-size: 1.4rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.story-text {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #1e1e1e;
+}
+
+.team-card {
+  border-radius: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-photo {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}

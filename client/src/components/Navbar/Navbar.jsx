@@ -1,79 +1,61 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav
-      className="navbar navbar-expand-lg bg-body-tertiary rounded"
-    >
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
+        {/* Logo */}
+        <a className="navbar-brand" href="/">
+          YSHostel
         </a>
+
+        {/* Toggler button for mobile view */}
         <button
-          className="navbar-toggler collapsed"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarsExample09"
-          aria-controls="navbarsExample09"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="navbar-collapse collapse" id="navbarsExample09">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+
+        {/* Navigation Links */}
+        <div className="collapse navbar-collapse" id="navbarContent">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li className="nav-item mx-4">
+              <a className="nav-link active" href="/">
                 Home
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
+            <li className="nav-item mx-4">
+              <a className="nav-link" href="/about">
+                About Hostel
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
-                Disabled
+            <li className="nav-item mx-4">
+              <a className="nav-link" href="/facilities">
+                Facilities
               </a>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
+            <li className="nav-item mx-4">
+              <a className="nav-link" href="/contact">
+                Contact Us
               </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
             </li>
           </ul>
-          <form role="search">
-            <input
-              className="form-control"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
+
+          {/* Buttons for Login and Sign Up */}
+          <div className="d-flex">
+            <Link to="/login" className="btn btn-outline-light">
+              Login
+            </Link>
+            <Link to="/register" className="btn btn-primary ms-2">
+              Sign Up
+            </Link>
+          </div>
         </div>
       </div>
     </nav>

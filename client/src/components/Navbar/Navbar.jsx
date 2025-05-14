@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
       <div className="container-fluid">
         {/* Logo */}
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           YSHostel
-        </a>
+        </Link>
 
         {/* Toggler button for mobile view */}
         <button
@@ -24,26 +25,26 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div className="collapse navbar-collapse" id="navbarContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item mx-4">
-              <a className="nav-link active" href="/">
+              <Link className="nav-link active" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-4">
-              <a className="nav-link" href="/about">
+              <Link className="nav-link" to="/about">
                 About Hostel
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-4">
-              <a className="nav-link" href="/facilities">
+              <Link className="nav-link" to="/facilities">
                 Facilities
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-4">
-              <a className="nav-link" href="/contact">
+              <Link className="nav-link" to="/contact">
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
 

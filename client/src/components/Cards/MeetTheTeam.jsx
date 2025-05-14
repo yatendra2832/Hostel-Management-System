@@ -5,25 +5,25 @@ const teamMembers = [
   {
     name: "Yatendra Singh",
     role: "Founder & Project Lead",
-    photo: "/yatendra.png", // Replace with actual image paths
+    photo: "/yatendra.webp", // Replace with actual image paths
     bio: "Visionary behind YSHostel, focused on creating a tech-driven and secure living space for students.",
   },
-  // {
-  //   name: "Ananya Sharma",
-  //   role: "Hostel Manager",
-  //   photo: "/ananya.png",
-  //   bio: "Ensures smooth daily operations and takes care of student needs and grievances with utmost priority.",
-  // },
+  {
+    name: "Ananya Sharma",
+    role: "Hostel Manager",
+    photo: "/ananya.webp",
+    bio: "Ensures smooth daily operations and takes care of student needs and grievances with utmost priority.",
+  },
   {
     name: "Mohit ",
     role: "Community Coordinator",
-    photo: "/mohit.png",
+    photo: "/mohit.webp",
     bio: "Organizes community-building events and ensures a vibrant social environment within the hostel.",
   },
   {
     name: "Prathvi Bharadwaj",
     role: "Admin & Finance",
-    photo: "/prithvi.png",
+    photo: "/prithvi.webp",
     bio: "Manages all administrative tasks and ensures financial transparency and smooth record-keeping.",
   },
 ];

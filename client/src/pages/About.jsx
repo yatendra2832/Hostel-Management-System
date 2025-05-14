@@ -13,7 +13,7 @@ const About = () => {
           <div className="col-md-6 mb-4 mb-md-0">
             <div className="image-container overflow-hidden rounded-4 shadow-sm">
               <img
-                src="/hostel_image.jpg"
+                src="/hostel_image.webp"
                 alt="YSHostel Building"
                 className="about-image img-fluid w-100"
                 style={{
@@ -79,7 +79,7 @@ const About = () => {
           <div className="col-md-6 mb-4 mb-md-0">
             <div className="image-container">
               <img
-                src="/founders.png" // Replace with your own image
+                src="/founders.webp" // Replace with your own image
                 alt="Founders discussing YSHostel plan"
                 className="about-image img-fluid w-100"
                 style={{

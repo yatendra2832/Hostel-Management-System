@@ -1,9 +1,9 @@
 import React from "react";
 
 const galleryImages = [
-  { src: "/room.png", caption: "Spacious Rooms with Modern Furniture" },
-  { src: "/commonarea.png", caption: "Relaxing Common Area for Socializing" },
-  { src: "/mess.png", caption: "Clean & Hygienic Mess Facility" },
+  { src: "/room.webp", caption: "Spacious Rooms with Modern Furniture" },
+  { src: "/commonarea.webp", caption: "Relaxing Common Area for Socializing" },
+  { src: "/mess.webp", caption: "Clean & Hygienic Mess Facility" },
 ];
 
 const VirtualTour = () => {

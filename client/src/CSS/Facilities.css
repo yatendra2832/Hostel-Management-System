@@ -37,12 +37,12 @@
 
 .facility-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 25px rgba(255, 87, 60, 0.15);
 }
 
 .facility-icon {
   font-size: 3rem;
-  color: #0d6efd;
+  color: #0d89fd;
   line-height: 1;
 }
 
@@ -65,6 +65,6 @@
 @media (min-width: 992px) {
   .col-md-6,
   .col-lg-4 {
-    flex: 1 1 30%; /* Ensures 3 columns in large screens */
+    /* flex: 1 1 30%; Ensures 3 columns in large screens */
   }
 }

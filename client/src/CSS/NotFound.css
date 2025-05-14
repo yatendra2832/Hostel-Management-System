@@ -1,0 +1,17 @@
+/* NotFound.css */
+.notfound-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  padding: 2rem;
+  color: #333;
+}
+
+.notfound-container h1 {
+  font-size: 8rem;
+  color: #007bff;
+}
+
+.notfound-container p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
